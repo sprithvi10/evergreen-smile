@@ -1,5 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import "./style.css";
+import heroImg from ".//images/hero.jpeg";
+import clinicImg from ".//images/clinic.jpg";
+import rootCanalImg from ".//images/root-canal.png";
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -234,7 +237,7 @@ function App() {
         </div>
         <div className="hero-visual">
             <div className="hero-img-wrap">
-                <img src="/images/hero.jpeg" alt="Friendly dentist with patient" onerror="this.style.display='none'" />
+                <img src={heroImg} alt="Friendly dentist with patient" onerror="this.style.display='none'" />
             </div>
         </div>
     </section>
@@ -330,7 +333,7 @@ function App() {
             </div>
             <div className="rci-visual" data-aos>
             <div className="rci-img-wrap">
-                <img src="images/root-canal.png" alt="Root canal illustration" onerror="this.style.display='none'" />
+                <img src={rootCanalImg} alt="Root canal illustration" onerror="this.style.display='none'" />
             </div>
             </div>
         </div>
@@ -343,7 +346,7 @@ function App() {
         <div className="about-grid">
             <div className="about-visual" data-aos>
             <div className="about-img-wrap">
-                <img src="images/clinic.jpg" alt="Inside the clinic" onerror="this.style.display='none'" />
+                <img src={clinicImg} alt="Inside the clinic" onerror="this.style.display='none'" />
             </div>
             <div className="about-hours-card">
                 <h4>Hours & Location</h4>
