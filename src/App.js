@@ -302,7 +302,7 @@ function App() {
         </div>
     </section>
 
-    {/* ROOT CANAL INFO (addresses Jahir's goal) */}
+    {/* ROOT CANAL INFO */}
     <section id="root-canal-info">
         <div className="section-inner">
         <div className="rci-grid">
@@ -435,7 +435,7 @@ function App() {
                 <input
                     type="text"
                     name="firstName"
-                    placeholder="First Name"
+                    placeholder="Ex: John"
                     value={formData.firstName}
                     onChange={handleChange}
                     className={errors.firstName ? "error" : ""}
@@ -446,7 +446,7 @@ function App() {
                 <input
                     type="text"
                     name="lastName"
-                    placeholder="Last Name"
+                    placeholder="Ex: Doe"
                     value={formData.lastName}
                     onChange={handleChange}
                     className={errors.lastName ? "error" : ""}
@@ -459,18 +459,18 @@ function App() {
                 <input
                     type="email"
                     name="email"
-                    placeholder="Email"
+                    placeholder="Ex: john.doe@example.com"
                     value={formData.email}
                     onChange={handleChange}
                     className={errors.email ? "error" : ""}
                 />
             </div>
             <div className="form-group">
-                <label htmlFor="phone">Phone</label>
+                <label htmlFor="phone">Phone Number</label>
                 <input
                     type="tel"
                     name="phone"
-                    placeholder="Phone (optional)"
+                    placeholder="Ex: (123) 456-7890"
                     value={formData.phone}
                     onChange={handleChange}
                     className={errors.email ? "error" : ""}
