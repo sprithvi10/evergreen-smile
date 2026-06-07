@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/evergreen-smile/static/css/main.f004f75d.css",
+    "main.js": "/evergreen-smile/static/js/main.5e55b84f.js",
+    "static/js/453.6871eb00.chunk.js": "/evergreen-smile/static/js/453.6871eb00.chunk.js",
+    "index.html": "/evergreen-smile/index.html",
+    "main.f004f75d.css.map": "/evergreen-smile/static/css/main.f004f75d.css.map",
+    "main.5e55b84f.js.map": "/evergreen-smile/static/js/main.5e55b84f.js.map",
+    "453.6871eb00.chunk.js.map": "/evergreen-smile/static/js/453.6871eb00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f004f75d.css",
+    "static/js/main.5e55b84f.js"
+  ]
+}
