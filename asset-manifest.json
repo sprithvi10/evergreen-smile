@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/evergreen-smile/static/css/main.f004f75d.css",
-    "main.js": "/evergreen-smile/static/js/main.be004d75.js",
+    "main.css": "/evergreen-smile/static/css/main.603a6013.css",
+    "main.js": "/evergreen-smile/static/js/main.58688c6d.js",
     "static/js/453.6871eb00.chunk.js": "/evergreen-smile/static/js/453.6871eb00.chunk.js",
     "static/media/hero.jpeg": "/evergreen-smile/static/media/hero.45b0bd27be0abf4b4cad.jpeg",
     "static/media/root-canal.png": "/evergreen-smile/static/media/root-canal.963000ab4995b6652770.png",
     "static/media/clinic.jpg": "/evergreen-smile/static/media/clinic.4dc77db1b1bbbbf1fa34.jpg",
     "index.html": "/evergreen-smile/index.html",
-    "main.f004f75d.css.map": "/evergreen-smile/static/css/main.f004f75d.css.map",
-    "main.be004d75.js.map": "/evergreen-smile/static/js/main.be004d75.js.map",
+    "main.603a6013.css.map": "/evergreen-smile/static/css/main.603a6013.css.map",
+    "main.58688c6d.js.map": "/evergreen-smile/static/js/main.58688c6d.js.map",
     "453.6871eb00.chunk.js.map": "/evergreen-smile/static/js/453.6871eb00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f004f75d.css",
-    "static/js/main.be004d75.js"
+    "static/css/main.603a6013.css",
+    "static/js/main.58688c6d.js"
   ]
 }
